@@ -1,0 +1,43 @@
+body{
+    background-color: #F4F3C4;
+}
+body {
+  background-image: url("fondkevin.png");
+}
+
+
+.photo-profil {
+margin-left: 570px;
+
+
+width:300px;
+height:300px;
+
+}
+
+ul {
+  width: 50%;
+  height: 20px;
+  margin-left: 21%;
+  padding-top: 30px;
+}
+a{
+  text-decoration: none;
+  color:  #F4F3C4;
+  font-family: 'helvetica';
+  font-weight: 500;
+  font-size: 20px;
+}
+
+a:hover {
+
+text-shadow: 2px 2px 5px;
+}
+nav ul li {
+  margin-right: 200px;
+  display: inline;
+}
+.rectangle-navigation {
+background-color: rgba(50, 50, 50, 0.5);
+height: 100px;
+}

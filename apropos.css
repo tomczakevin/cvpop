@@ -1,0 +1,68 @@
+body{
+  background-color: #F4F3C4;
+}
+h2{
+  text-align: center;
+font-family: helvetica;
+color:  #F4F3C4;
+}
+h6 {
+  text-align: center;
+font-family: helvetica;
+color:  #F4F3C4;
+font-size: 21;
+}
+p {
+  text-align: center;
+font-family: helvetica;
+color: rgba(50, 50, 50, 0.5);
+
+}
+ul {
+  width: 50%;
+  height: 20px;
+  margin-left: 21%;
+  padding-top: 30px;
+}
+a{
+  text-decoration: none;
+  color:  #F4F3C4;
+  font-family: 'helvetica';
+  font-weight: 500;
+  font-size: 20px;
+}
+a:hover {
+
+text-shadow: 2px 2px 5px;
+}
+nav ul li {
+  margin-right: 90px;
+  display: inline;
+}
+.rectangle-navigation {
+background-color: rgba(50, 50, 50, 0.5);
+height: 100px;
+
+}
+.logo-popschool {
+  position: absolute;
+    width: 50%;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 500px;
+    margin-top: 100px;
+
+
+}
+.logo-popschool img {
+  margin-top: 8px;
+}
+.rectagle-gris{
+  z-index: 3;
+  background: rgba(50, 50, 50, 0.2);
+border-radius: 10px;
+  height: 2400px;
+  width: 1000px;
+margin-left: 12%;
+margin-top: 10%;
+}

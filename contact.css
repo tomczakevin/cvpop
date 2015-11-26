@@ -1,0 +1,121 @@
+body{
+  background-color: #F4F3C4;
+    font-family: helvetica;
+}
+
+ul {
+  width: 50%;
+  height: 20px;
+  margin-left: 21%;
+  padding-top: 30px;
+}
+a{
+  text-decoration: none;
+  color:  #F4F3C4;
+  font-family: 'helvetica';
+  font-weight: 500;
+  font-size: 20px;
+}
+a:hover {
+text-shadow: 2px 2px 5px;
+}
+nav ul li {
+  margin-right: 100px;
+  display: inline;
+}
+.rectangle-navigation {
+background-color: rgba(50, 50, 50, 0.5);
+height: 100px;
+}
+form {
+  left: 30px;
+  top: 100px;
+  position: relative;
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    /* Afin de s'assurer que toutes les étiquettes aient la même dimension et soient alignées correctement */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+    /* Afin de s'assurer que tous les champs textuels utilisent la même police
+       Par défaut, textarea utilise une police à espacement constant */
+    font: 1em sans-serif;
+
+    /* Pour donner la même dimension à tous les champs textuels */
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Pour harmoniser l'apparence des bordures des champs textuels */
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    /* Afin de rehausser les éléments actifs */
+    border-color: #000;
+}
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+}
+.button {
+    /* Pour positionner les boutons de la même manière que les champs textuels */
+    padding-left: 90px; /* même dimension que les étiquettes */
+}
+
+button {
+    /* Cette marge représente approximativement le même espace
+       que celui entre les étiquettes et les champs textuels */
+    margin-left: .5em;
+}
+p{
+  text-align: right;
+  font-family: helvetica;
+  font-size: 1.6em;
+  width: 200px;
+  height: 43px;
+  padding-top: 7px; /*permet le centrage vertical*/
+  text-align: center;
+  color: rgba(50, 50, 50, 0.5);
+  background: #444;
+  background: linear-gradient( #FEF0CF, #FEFEFE);
+  border-radius: 8px;
+  text-shadow: 0px 1px 0px white;
+  text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+  0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+.mescoordonnees {
+  background-color:rgba(50, 50, 50, 0.5);
+  height: 300px;
+  width: 250px;
+padding-top: 50px;
+
+}
+.mescoordonnees {
+    margin top: 20px;
+
+  border-radius: 8px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 1.3em;
+color: #F4F3C4;
+}
